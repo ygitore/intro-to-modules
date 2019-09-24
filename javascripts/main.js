@@ -1,9 +1,8 @@
 import store from './components/store.js';
 
+const init = () => {
+  // do stuff
+  store.makeStore();
+};
 
-const init = ()=>{
-    store.makeStore();
-}
 init();
-
-
